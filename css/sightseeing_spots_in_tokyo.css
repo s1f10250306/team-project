@@ -1,3 +1,14 @@
-h1{
+.top{
     color: aqua;
+}
+
+#sensouji{
+    font-family: fantasy;
+    text-decoration: underline;
+    color: black;
+}
+
+body{
+    height: 100%;
+    background-image: url("../imgs/tokyo_map.jpg");
 }
