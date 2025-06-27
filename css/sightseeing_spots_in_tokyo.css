@@ -1,14 +1,94 @@
-.top{
-    color: aqua;
+/* 全体設定 */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
 }
 
-#sensouji{
-    font-family: fantasy;
-    text-decoration: underline;
-    color: black;
+/* ヘッダー */
+.site-header {
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
 }
 
-body{
-    height: 100%;
-    background-image: url("../imgs/tokyo_map.jpg");
+.site-title {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.site-subtitle {
+    margin: 0.5rem 0 0;
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 2rem 1rem;
+}
+
+.card-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* カードデザイン */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.75rem;
+}
+
+.card-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.card-tags span {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* フッター */
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
 }

@@ -1,19 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京観光ガイド</title>
     <link rel="stylesheet" href="css/sightseeing_spots_in_tokyo.css">
-    <title>Document</title>
 </head>
 <body>
-    <div id="test">
-        <span class="top">トップページ</span>
-        <a href="sensouji.html" id="sensouji">浅草寺</a>
-        <a href="tokyo_skytree.html" id="tokyo_skytree">東京スカイツリー</a>
-        <a href="Tokyo tower.html" id="tokyo_tower">東京タワー</a>
-    </div>
-    
-    
+
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">東京観光ガイド</h1>
+            <p class="site-subtitle">伝統と現代が交差する街、東京へようこそ</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="card-container">
+
+            <a href="sensouji.html" class="card-link">
+                <article class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">【#01】浅草寺</h2>
+                        <p class="card-description">東京最古の寺院。雷門の巨大な提灯と活気あふれる仲見世通りが魅力です。</p>
+                        <div class="card-tags">
+                            <span>#伝統</span>
+                            <span>#下町情緒</span>
+                            <span>#食べ歩き</span>
+                        </div>
+                    </div>
+                </article>
+            </a>
+
+            <a href="tokyo_skytree.html" class="card-link">
+                <article class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">【#02】東京スカイツリー</h2>
+                        <p class="card-description">高さ634mを誇る日本のシンボル。天望回廊からの絶景は必見です。</p>
+                        <div class="card-tags">
+                            <span>#絶景</span>
+                            <span>#現代建築</span>
+                            <span>#展望台</span>
+                        </div>
+                    </div>
+                </article>
+            </a>
+
+            <a href="Tokyo tower.html" class="card-link">
+                <article class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">【#03】東京タワー</h2>
+                        <p class="card-description">1958年開業。今なお愛され続ける東京のランドマークです。</p>
+                        <div class="card-tags">
+                            <span>#ランドマーク</span>
+                            <span>#夜景</span>
+                            <span>#歴史</span>
+                        </div>
+                    </div>
+                </article>
+            </a>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 東京観光ガイド</p>
+    </footer>
+
 </body>
 </html>
