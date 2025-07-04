@@ -1,5 +1,5 @@
 h1{
-    color:#000000 ;
+    color:#ffffff ;
 }
 img {
     width: 500px;
@@ -42,7 +42,7 @@ main {
     max-width: 960px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.85); /* コンテンツ部分は少し透明感のある白 */
+    background-color: rgba(255, 255, 255, 0.7); /* コンテンツ部分は少し透明感のある白 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     color: #333; /* コンテンツ部分の文字色は黒に戻す */
