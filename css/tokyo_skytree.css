@@ -18,7 +18,7 @@ body {
     background-position: center; /* 画像を中央に配置 */
     background-attachment: fixed; /* ページをスクロールしても画像は固定 */
     color: #fff; /* 背景が暗くなるので文字色を白に */
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* 文字を読みやすくするための影 */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
 header {
@@ -26,6 +26,36 @@ header {
     padding: 50px 20px;
     background-color: rgba(0, 0, 0, 0.5); /* 背景の画像が透けるように半透明にする */
     color: #fff;
+}
+
+.top{
+    text-decoration: none;
+}
+
+.site-title {
+    color: #000000;
+    font-family: var(--s-font-7d8f64b6);
+    font-size: 48px;
+    font-weight: bold;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    transition: text-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.site-title:hover{
+    text-shadow: 5px 5px #868686;
+    transform: translate(-5px -5px -5px);
 }
 
 header h1 {
@@ -37,7 +67,6 @@ header p {
     font-size: 1.2em;
 }
 
-/* メインコンテンツ */
 main {
     max-width: 960px;
     margin: 20px auto;
