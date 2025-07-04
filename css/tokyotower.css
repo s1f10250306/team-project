@@ -436,3 +436,36 @@ footer {
 .intro-section p {
     color: #eee; /* 薄い白に */
 }
+
+
+.top{
+    text-decoration: none;
+}
+
+.site-title {
+    
+    color: #000000;
+    font-family: var(--s-font-7d8f64b6);
+    font-size: 48px;
+    font-weight: bold;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    transition: text-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.site-title:hover{
+
+    text-shadow: 5px 5px #868686;
+    transform: translate(-5px -5px -5px);
+}
